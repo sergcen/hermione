@@ -8,7 +8,7 @@ const BrowserPool = require('../../lib/browser-pool');
 const RunnerEvents = require('../../lib/constants/runner-events');
 const logger = require('../../lib/utils').logger;
 
-describe('BrowserAgent', () => {
+describe.skip('BrowserAgent', () => {
     const sandbox = sinon.sandbox.create();
 
     const mkBrowserStub = (publicAPI, id) => {
